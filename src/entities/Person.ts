@@ -3,13 +3,14 @@ export enum Gender {
     Male = 'm'
 }
 
-class Person {
+export class Person {
     name: string;
-    birth!: Date;
+    birth: Date;
     gender: Gender;
 
-    constructor (name: string, gender: Gender) {
+    constructor (name: string, birth: Date, gender: Gender) {
         this.name = name
+        this.birth = birth
         this.gender = gender
     }
 }
