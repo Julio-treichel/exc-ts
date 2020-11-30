@@ -1,0 +1,19 @@
+.card {
+    position: absolute;
+    left: 27%;
+    background-color: rgb(66, 133, 192);
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+input {
+    margin: 5% auto;
+    display: none;
+}
+
+#author {
+    margin: 5% auto;
+    display: none;
+}

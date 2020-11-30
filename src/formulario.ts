@@ -78,7 +78,7 @@ form.addEventListener('submit', (e: Event) => {
     gender.value = ''
 })
 
-function showPersons() {
+export function showPersons() {
     if (localStorage.getItem('persons')) {
         const birthDate = JSON.parse(localStorage.getItem('persons')!)
 

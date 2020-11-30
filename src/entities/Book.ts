@@ -6,7 +6,16 @@ export class Book extends Document {
     edition: number
     volume: number
 
-    constructor (isbn : number, edition : number, volume : number, title: string, subtitle: string, publishedAt : Date | number, author: Person)
+    constructor (
+        isbn : number,
+        edition : number,
+        volume : number,
+        title: string,
+        subtitle: string,
+        publishedAt : Date | number,
+        author: Person
+    )
+    
     {
         super (title, subtitle, publishedAt, author)
         this.isbn = isbn

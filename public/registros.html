@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>registros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="card">
+        <form>
+                <pre><h1>O que deseja cadastrar?</h1></pre>
+                <p>
+                    <select id="type" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="l">Livros</option>
+                        <option value="p">Periódicos</option>
+                    </select>
+                </p>
+                <input id="title" placeholder="Informe o título" class="input">
+                </p>
+                <input id="subtitle" placeholder="Informe o subtítulo" class="input">
+                <p>
+                <input id="publishedAt" type="date" class="input">
+                </p>
+                <select id="author" placeholder="Informe o autor" class="input">
+                <option value="">Selecione um autor</option>
+                </select>
+                <p>
+                <input id="isbn" placeholder="Informe o ISBN" class="input">
+                </p>
+                <input id="edition" placeholder="Informe a edição" class="input">
+                <p>
+                <input id="volume" placeholder="Informe o volume" class="input">
+                </p>
+                <input id="issn" placeholder="Informe o ISSN" class="input">
+                <p>
+                <input id="issue" placeholder="Informe o ISSUE" class="input">
+                </p>
+                <button>Cadastrar</button>
+                <p id="mensagem"></p>
+        </form>
+    </div>
+    <script src='registros.js' type="module"></script>
+</body>
+</html>
