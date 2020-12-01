@@ -17,7 +17,6 @@ const formulario = document.querySelector<HTMLFormElement>('form')!
 
 let personsLocalStorage: Array<Person> = JSON.parse(localStorage.getItem("persons") || '{}')
 let nomes = personsLocalStorage.map(p=> p.name)
-console.log(nomes)
 
 typeSelect.addEventListener('change', (event) => {
     if (typeSelect.value == "l") {
