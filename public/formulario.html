@@ -9,25 +9,35 @@
     
 </head>
 <body>
-    <form>
-        <pre>
-            <h1>Registro de Autores</h1>
-
-            <input id="nome" placeholder="Informe seu Nome" required>
-
-            <input id="nascimento" type="date" required>
-
-            <select id="sexo" required>
-                <option value="">Selecione o sexo</option>
-                <option value="f">Feminino</option>
-                <option value="m">Masculino</option>
-            </select>
+   <div id="nameSearch">
+      <h1>Pessoas Cadastradas</h1>
+      <p><input id="search" placeholder="Buscar um nome"></p>
+      <button>Pesquisar</button>
+      <div id="cadastros">
+         <p id="pessoa"> 
             
-            <button>Enviar</button>
-            <p id="mensagem"></p>
-        </pre>
-    </form>
-    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
-    <script src="formulario.js" type="module"></script>
+         </p>
+      </div>
+   </div>   
+   <form>
+   <pre>
+      <h1>Registrar outra Pessoa</h1>
+
+      <input id="nome" placeholder="Informe seu Nome" required>
+
+      <input id="nascimento" type="date" required>
+
+      <select id="sexo" required>
+            <option value="">Selecione o sexo</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+      </select>
+      
+      <button>Enviar</button>
+      <p id="mensagem"></p>
+   </pre>
+   </form>
+   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+   <script src="formulario.js" type="module"></script>
 </body>
 </html>
